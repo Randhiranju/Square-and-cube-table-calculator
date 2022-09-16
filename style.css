@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+form{
+    background-color: whitesmoke;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:22%;
+    height:300px;
+    border-radius:10%;
+}
+
+form input{
+    margin-bottom:10px;
+    width:160px;
+    border-radius: 5px;
+}
